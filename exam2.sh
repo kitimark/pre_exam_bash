@@ -10,9 +10,9 @@ for i in `seq 100`;do
 
 	for j in `seq $i`;do
 		if (($i%2));then
-			echo 13579 >> test/mydata$k.dat
+			echo 13579 >> mydata$k.dat
 		else
-			echo 246810 >> test/mydata$k.dat
+			echo 246810 >> mydata$k.dat
 		fi
 	done
 done
